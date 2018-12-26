@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 == Running as Docker container
 
 
@@ -31,3 +32,7 @@ This is a simple spring boot application that runs as docker container.
 `docker ps -as`
 
 
+=======
+# kubernetes-ms
+Simple Spring boot app for kubernetes demonstration
+>>>>>>> c35798d813c7558b1a110e551afe733cc1dcf8b0
