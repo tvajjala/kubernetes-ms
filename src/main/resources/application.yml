@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    - default
+  application:
+    name: kubernetes-ms
+  output:
+    ansi:
+      enabled: always
+logging:
+  level:
+    # Enabling trace for app specific logging.
+    com.cloud: INFO
+    org.springframework: INFO
+    org.springframework.web: INFO
+    org.springframework.boot: INFO
